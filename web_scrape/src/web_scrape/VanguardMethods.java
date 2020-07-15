@@ -239,7 +239,7 @@ public class VanguardMethods {
 		String date = formatter.format(formatDate);
 		
 		try {
-			FileWriter fos = new FileWriter("C:\\Users\\chris\\Google Drive\\PC_Stuff\\Programing\\Eclips_Java\\web_scrape\\files\\" + date + "Vanguard.csv", true);
+			FileWriter fos = new FileWriter("C:\\Users\\chris\\Google Drive\\PC_Stuff\\Programing\\Git\\Financial_WebScrape\\web_scrape\\files\\" + date + "Vanguard.csv", true);
 			PrintWriter pw = new PrintWriter(fos);
 			pw.println("Investment Name, Dates1, Prices1, Dates2, Prices2, Dates3, Prices3"); 
 			
